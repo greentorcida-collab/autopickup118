@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "autopickup",
+  "version": "${version}",
+  "name": "Auto Pickup",
+  "description": "Item dari blok dan mob langsung masuk inventory.",
+  "environment": "*",
+  "entrypoints": { "main": ["com.autopickup.AutoPickup"] },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.18.2",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
